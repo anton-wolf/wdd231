@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WDD 131 – Dynamic Web Fundamentals - Katlego Kgwetiane</title>
+    <meta name="description"
+          content="WDD131 dynamic web fundamentals">
+    <meta name="author" content="Katlego Kgwetiane - WDD131">
+    <link rel="stylesheet" href="styles/bigger.css">
+    <link rel="stylesheet" href="styles/small.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100..900&family=Questrial&display=swap"
+          rel="stylesheet">
+    <script src="scripts/course.js" defer></script>
+    <script src="scripts/getdates.js" defer></script>
+    <script src="scripts/navigation.js" defer></script>
+</head>
+<body>
+<header>
+    <div>
+        <img src="images/profile_sm.jpg" alt="Katlego Kgwetiane">
+        <h2>
+            Katlego Kgwetiane
+        </h2>
+    </div>
+    <a id="menu" href="#" aria-label="Menu"></a>
+    <nav>
+        <ul class="navigation">
+            <li><a href="#">Home</a></li>
+            <li><a target="_blank" href="https://byupw.instructure.com/">Chamber</a></li>
+            <li><a target="_blank"
+                   href="https://github.com/anton-wolf/wdd231">Github
+                Profile</a>
+            </li>
+            <li><a target="_blank" href="https://www.linkedin.com/in/katlego-kgwetiane-31b463a9/">LinkedIn</a></li>
+        </ul>
+    </nav>
+</header>
+
+<main>
+    <h1>Home</h1>
+    <section class="card">
+        <h2>Course Work</h2>
+        <ul id="course_work"></ul>
+    </section>
+    <section class="card">
+        <h2>Polokwane, South Africa</h2>
+        <article class="article_2">
+            <h2 hidden="">...</h2>
+            <figure>
+                <img alt="south african Ostrich" src="images/za_ostrich.jpeg">
+                <figcaption><i>South African Ostrich</i></figcaption>
+            </figure>
+        </article>
+    </section>
+    <section class="card courses">
+        <h2>Web and Computer Programming Certificate</h2>
+        <ul>
+            <li>
+                <button id="all_courses_btn" class="selected">All</button>
+            </li>
+            <li>
+                <button id="cse_course_btn">CSE</button>
+            </li>
+            <li>
+                <button id="wdd_course_btn">WDD</button>
+            </li>
+        </ul>
+        <section id="course_container">
+            <h2 hidden=''>...</h2>
+        </section>
+    </section>
+</main>
+
+<footer>
+    <p>©<span id="currentyear"></span> 🏆 Katlego Kgwetiane 🏆 South Africa</p>
+    <p id="lastModified"></p>
+</footer>
+</body>
+</html>

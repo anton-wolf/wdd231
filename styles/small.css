@@ -1,0 +1,81 @@
+:root {
+    --primary_colour: #067C5A;
+    --accent_colour: #fae3ad;
+    --secondary_colour: #F7B011;
+}
+
+@media only screen and (max-width: 40em) {
+    /* mobile view*/
+    header {
+        grid-template-areas:"div" "a" "nav";
+        grid-template-rows: auto auto auto;
+    }
+
+    .navigation {
+        display: none;
+    }
+
+    .navigation.show {
+        display: grid;
+    }
+
+    .navigation li {
+        justify-self: end;
+    }
+
+    #menu {
+        color: white;
+        display: block;
+        position: absolute;
+        font-size: 2rem;
+        font-weight: 700;
+        text-decoration: none;
+        padding: 0.5rem 0.75rem;
+        justify-self: end;
+        grid-area: a;
+        top: 21px;
+    }
+
+    #menu::before {
+        content: "≡";
+    }
+
+
+    .show li {
+        display: block;
+    }
+
+    #menu.show::before {
+        content: "X";
+    }
+
+    nav ul {
+        display: grid;
+    }
+
+    .card {
+        grid-column: 1 / 5;
+    }
+
+    .card:nth-child(2) {
+        grid-column: 1 / 5;
+    }
+
+    .article_2 {
+        grid-template-columns: unset;
+    }
+
+    .article_2 figure {
+        text-align: center;
+    }
+
+    #course_container {
+        grid-template-columns: unset;
+    }
+
+    #course_container div {
+        width: 80%;
+    }
+
+
+}
