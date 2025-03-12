@@ -188,11 +188,11 @@ article {
 .courses {
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: auto auto auto;
     grid-template-areas:
     "h2"
     "ul"
-    "section";
+    "section"
+    "p";
 }
 
 .courses h2 {
@@ -260,6 +260,12 @@ article {
     border-radius: 100%;
     margin: 0 5px;
     color: black;
+    font-weight: 900;
+}
+
+.courses p {
+    grid-area: p;
+    justify-self: center;
     font-weight: 900;
 }
 

@@ -90,21 +90,29 @@ const course_btns = {
 }
 
 // function for populating course container
-const populateCourseContainer = course => {
+const populateCourseContainer = ({course, credits}) => {
     const newDiv = document.createElement('div');
+    const creditsElement = document.querySelector(".courses p");
+
+    // populate credits
+    creditsElement.textContent = `→ ${credits} credits earned 😊`
+
 
     // indicate as completed if completed
     course.completed && newDiv.classList.add('completed');
     newDiv.textContent = `${course.subject} ${course.number}`
+
     // course is completed
     const completed = document.createElement('span')
     completed.textContent = `✓`
     course.completed && newDiv.prepend(completed)
     course_container.appendChild(newDiv)
+
 }
 
 // function for selecting course and highlighting currently selected course button
 const SelectCourse = event => {
+
 
     // empty course container repeteadly until empty
     while (course_container.firstChild)
@@ -122,23 +130,20 @@ const SelectCourse = event => {
 
     })
 
+    const subject = event.target.innerHTML;
 
-    courses.forEach(course => {
-        if (event.target.innerHTML === 'CSE' && course.subject === 'CSE')
-            populateCourseContainer(course)
-        else if (event.target.innerHTML === 'WDD' && course.subject === 'WDD')
-            populateCourseContainer(course)
-        else if (event.target.innerHTML === 'All')
-            populateCourseContainer(course)
-    });
+    // separate into subjects
+    const filteredCourses = courses.filter(course =>
+        subject === 'All' || course.subject === subject
+    );
 
-    // handle subject selection
-    if (event.target.innerHTML === 'CSE')
-        courses.forEach(course => {
-            if (course.subject === 'CSE') {
-            }
+    // compute course credits based on selection
+    const credits = filteredCourses.reduce((compounded, course) =>
+        compounded + (course.completed ? course.credits : 0), 0
+    );
 
-        })
+    filteredCourses.forEach(course => populateCourseContainer({course, credits}));
+
 }
 
 // attach click event listeners to all three buttons
@@ -148,10 +153,12 @@ Object.entries(course_btns).forEach(([, value]) => {
 
 //populate courses on page load
 document.addEventListener('DOMContentLoaded', () => {
+    // count credits based on selection
+    const credits = courses.reduce((compounded, current) =>
+        compounded + (current.completed ? current.credits : 0), 0)
 
     courses.forEach(course => {
-        populateCourseContainer(course)
-
+        populateCourseContainer({course, credits})
 
         // populate course work
         const course_work_item = document.createElement("li")
