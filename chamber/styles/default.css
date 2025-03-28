@@ -1,0 +1,137 @@
+:root {
+    --primary_colour: #067C5A;
+    --accent_colour: #fae3ad;
+    --secondary_colour: #F7B011;
+}
+
+body {
+    font-family: Questrial, sans-serif;
+    height: 100vh;
+}
+
+h1, h2, h3, a, footer {
+    margin: 0;
+    font-family: "Montserrat", sans-serif;
+}
+
+h1, h2, h3, a {
+    font-weight: 400;
+    font-size: 1.3rem;
+}
+
+h2 {
+    text-align: center;
+    padding: 20px;
+}
+
+/*Header and navigation styling*/
+
+header {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: var(--primary_colour);
+    color: white;
+    width: 100%;
+}
+
+#header_title {
+    display: flex;
+    justify-content: start;
+    flex: 2
+}
+
+#header_title img {
+    width: 60px;
+    border-radius: 8px;
+    padding: 5px;
+}
+
+header h1 {
+    align-self: center;
+    text-align: center;
+    padding: 10px;
+}
+
+#header_title div {
+    display: grid;
+}
+
+#header_title * {
+    justify-self: center;
+}
+
+#menu {
+    color: white;
+    display: flex;
+    font-size: 2rem;
+    font-weight: 700;
+    text-decoration: none;
+    padding: 0.5rem 0.75rem;
+    align-items: center;
+}
+
+#menu::before {
+    content: "≡";
+}
+
+#menu.show::before {
+    content: "X";
+}
+
+.active::before {
+    content: "";
+    bottom: -3px;
+    border-bottom: solid thin;
+    width: 100%;
+    display: block;
+    position: absolute;
+}
+
+nav {
+    flex: 1 1 100%;
+    color: white;
+    align-items: center;
+}
+
+nav ul {
+    margin: auto;
+    padding: 0;
+}
+
+nav ul li {
+    flex: 1 1 100%
+}
+
+nav ul li a {
+    display: block;
+    width: 100%;
+    text-decoration: none;
+    color: #FFF;
+    text-align: center;
+    transition: 300ms;
+    font-size: 1rem;
+    position: relative;
+}
+
+.navigation {
+    display: none;
+    list-style: none;
+    align-items: center;
+    height: 100%;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    border-top: solid #FFF;
+}
+
+.navigation li a:hover, .active {
+    color: var(--secondary_colour);
+}
+
+.navigation.show {
+    display: flex;
+}
+
+.show li {
+    display: block;
+    margin: 5px 0;
+}

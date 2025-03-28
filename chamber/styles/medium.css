@@ -1,0 +1,31 @@
+@media screen and (min-width: 31.25rem) {
+    header {
+        flex-wrap: unset;
+        justify-content: space-between;
+    }
+
+    header div {
+        flex: unset;
+        #flex: 1;
+    }
+
+    #menu {
+        display: none;
+    }
+
+    nav {
+        max-width: 358px;
+        flex: 1 1 100%;
+    }
+
+    .navigation {
+        display: flex;
+        flex-wrap: unset;
+        border:none;
+    }
+
+
+    #temples_container {
+        grid-template-columns: 1fr 1fr;
+    }
+}
