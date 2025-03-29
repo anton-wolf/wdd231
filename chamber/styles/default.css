@@ -49,8 +49,13 @@ header {
 
 header h1 {
     align-self: center;
-    text-align: center;
+    text-align: start;
     padding: 10px;
+
+}
+header h1 span {
+    font-size: .75rem;
+    display: block;
 }
 
 #header_title div {
