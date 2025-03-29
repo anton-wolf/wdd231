@@ -61,7 +61,7 @@ header h1 {
     justify-self: center;
 }
 
-#menu {
+#menu,.theme,.theme_mobile {
     color: white;
     display: flex;
     font-size: 2rem;
@@ -70,9 +70,17 @@ header h1 {
     padding: 0.5rem 0.75rem;
     align-items: center;
 }
+.theme, .theme_mobile{
+    width: initial;
+    display: flex;
+}
 
 #menu::before {
     content: "≡";
+}
+
+.theme::before,.theme_mobile::before{
+    content: "◑";
 }
 
 #menu.show::before {
@@ -179,8 +187,13 @@ main {
     grid-area: section2;
     display: grid;
     gap: .75rem;
-    grid-template-areas: "h2" "div1" "div2" "div3";
+    grid-template-areas:
+            "h2"
+            "div1"
+            "div2"
+            "div3";
     padding: 15px;
+    grid-template-columns: 1fr;
     width: -webkit-fill-available;
 }
 
@@ -196,7 +209,7 @@ main {
 }
 
 .events {
-    min-height: 200px; /* remove this declaration once events content is provided */
+    min-height: 200px;
 }
 
 /* current weather card styling */
@@ -274,6 +287,19 @@ main {
     padding: 15px;
 }
 
+/** line-view */
+.members_section.line_view {
+    display: grid;
+}
+
+.members_section.line_view .members_card {
+    margin: unset;
+}
+
+.members_section button {
+    display: none;
+}
+
 .members_card {
     display: grid;
     background-color: var(--accent_colour);
@@ -287,7 +313,7 @@ main {
     font-size: 1.1rem;
 }
 
-.members_card sup {
+.members_card sub {
     text-align: center;
     top: unset;
     border-bottom: solid thin white;
@@ -317,3 +343,49 @@ main {
     width: unset;
 }
 
+.members_card figure figcaption ul li {
+    word-break: break-all;
+    margin: 5px 0;
+}
+
+.members_card figure figcaption ul li a {
+    font-size: unset;
+    text-decoration: underline;
+    color: unset;
+}
+
+/* footer styling */
+
+footer {
+    background-color: var(--primary_colour);
+}
+
+#footer_wrapper {
+    color: white;
+    padding: 40px;
+    flex-direction: column;
+    display: flex;
+    grid-area: footer;
+    align-items: center;
+}
+
+
+#footer_wrapper section {
+    flex: 1;
+    width: 100%;
+}
+
+#footer_wrapper section:nth-child(2) {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#footer_wrapper section:nth-child(2) div {
+    width: 40px;
+    height: 40px;
+}
+
+#footer_wrapper section:nth-child(2) div img {
+    width: 100%;
+}

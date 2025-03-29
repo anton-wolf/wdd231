@@ -4,5 +4,5 @@ const lastModified = document.querySelector("#lastModified");
 
 // date object
 const today = new Date();
-year.innerHTML = `${today.getFullYear()}`
+year.innerHTML = ` ${today.getFullYear()}`
 lastModified.innerHTML = `Last Modification: ${document.lastModified}`

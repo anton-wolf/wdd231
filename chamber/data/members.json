@@ -1,0 +1,79 @@
+[
+  {
+    "name": "Limpopo IT Solutions",
+    "address": "123 Tech Park, Polokwane, 0700",
+    "phone": "+27 15 555 1234",
+    "email": "info@limpopoit.co.za",
+    "website": "https://www.limpopoit.co.za",
+    "image": "limpopo-it-logo.webp",
+    "membershipLevel": 3,
+    "tagline": "Innovate. Secure. Succeed.",
+    "description": "Leading IT service provider in Limpopo specializing in cloud solutions and cybersecurity."
+  },
+  {
+    "name": "Polokwane Auto Repairs",
+    "address": "45 Main Road, Polokwane, 0699",
+    "phone": "+27 15 555 5678",
+    "email": "support@polokwaneautorepairs.co.za",
+    "website": "https://www.polokwaneautorepairs.co.za",
+    "image": "polokwane-auto.webp",
+    "membershipLevel": 2,
+    "tagline": "Fix it fast.",
+    "description": "Reliable auto repair services, including diagnostics, engine repairs, and servicing."
+  },
+  {
+    "name": "Limpopo Fresh Produce",
+    "address": "78 Market Street, Polokwane, 0700",
+    "phone": "+27 15 555 8765",
+    "email": "sales@limpopofresh.co.za",
+    "website": "https://www.limpopofresh.co.za",
+    "image": "limpopo-fresh.webp",
+    "membershipLevel": 1,
+    "tagline": "Fresh. Local. Quality.",
+    "description": "Supplier of fresh fruits and vegetables sourced from local farms."
+  },
+  {
+    "name": "Zebula Construction",
+    "address": "102 Industrial Road, Polokwane, 0700",
+    "phone": "+27 15 555 4321",
+    "email": "projects@zebulaconstruction.co.za",
+    "website": "https://www.zebulaconstruction.co.za",
+    "image": "zebula-construction.webp",
+    "membershipLevel": 3,
+    "tagline": "Built to last.",
+    "description": "Specialists in residential and commercial construction projects across Limpopo."
+  },
+  {
+    "name": "Green Energy Solutions",
+    "address": "89 Renewable Ave, Polokwane, 0700",
+    "phone": "+27 15 555 9876",
+    "email": "info@greenenergylimpopo.co.za",
+    "website": "https://www.greenenergylimpopo.co.za",
+    "image": "green-energy.webp",
+    "membershipLevel": 2,
+    "tagline": "Go solar today.",
+    "description": "Providing solar and alternative energy solutions for homes and businesses."
+  },
+  {
+    "name": "Bakone Accounting Services",
+    "address": "23 Finance Street, Polokwane, 0700",
+    "phone": "+27 15 555 2468",
+    "email": "accounts@bakoneaccounting.co.za",
+    "website": "https://www.bakoneaccounting.co.za",
+    "image": "bakone-accounting.webp",
+    "membershipLevel": 1,
+    "tagline": "Numbers made easy.",
+    "description": "Offering tax, payroll, and bookkeeping services to small and medium-sized businesses."
+  },
+  {
+    "name": "Polokwane Digital Marketing",
+    "address": "34 Advertising Blvd, Polokwane, 0700",
+    "phone": "+27 15 555 1357",
+    "email": "contact@polokwanedigital.co.za",
+    "website": "https://www.polokwanedigital.co.za",
+    "image": "polokwane-digital.webp",
+    "membershipLevel": 3,
+    "tagline": "Grow online.",
+    "description": "Helping businesses grow online with SEO, social media, and digital advertising."
+  }
+]

@@ -2,8 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport"
-          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=5">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <meta name="description"
           content="Chamber of Commerce - Directory">
@@ -28,6 +27,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100..900&family=Questrial&display=swap"
           rel="stylesheet">
     <script src="scripts/navigation.js" defer></script>
+    <script src="scripts/script.js" defer></script>
     <script src="scripts/getdates.js" defer></script>
 </head>
 <body>
@@ -41,8 +41,7 @@
             <sup>Chamber of Commerce</sup>
         </div>
     </div>
-
-
+    <a class="theme_mobile" href="#" aria-label="Theme"></a>
     <a id="menu" href="#" aria-label="Menu"></a>
     <nav>
         <ul class="navigation">
@@ -50,7 +49,7 @@
                 <a href="#">Home</a>
             </li>
             <li>
-                <a href="#">Directory</a>
+                <a href="directory.html">Directory</a>
             </li>
             <li>
                 <a href="#">Join</a>
@@ -59,14 +58,15 @@
                 <a href="#">Discover</a>
             </li>
             <!--awaiting colour theme toggle-->
-            <!--<li>
-                <a href="#">Small</a>
-            </li>-->
+            <li>
+                <a class="theme" href="#" aria-label="Theme"></a>
+            </li>
         </ul>
     </nav>
 </header>
 <main>
     <section class="main_descendents hero_section">
+        <h2 hidden>...</h2>
         <div class="hero">
             <img src="images/polokwane_hero.webp" alt="Polokwane Chamber of Commerce">
         </div>
@@ -100,49 +100,53 @@
     </section>
     <section class="main_descendents members_section">
         <h2 hidden>...</h2>
-        <div class="members_card">
-            <h2>Name</h2>
-            <sup>something clever...</sup>
-            <figure>
-                <img src="images/chamber.png" alt="...">
-                <figcaption>
-                    <ul>
-                        <li><strong>Email:</strong> info@mail.co.za</li>
-                        <li><strong>Phone:</strong> +277 111 1111</li>
-                        <li><strong>URL:</strong> https://asdasda.asd</li>
-                    </ul>
-                </figcaption>
-            </figure>
-        </div>
-        <div class="members_card">
-            <h2>Name</h2>
-            <sup>something clever...</sup>
-            <figure>
-                <img src="images/chamber.png" alt="...">
-                <figcaption>
-                    <ul>
-                        <li><strong>Email:</strong> info@mail.co.za</li>
-                        <li><strong>Phone:</strong> +277 111 1111</li>
-                        <li><strong>URL:</strong> https://asdasda.asd</li>
-                    </ul>
-                </figcaption>
-            </figure>
-        </div>
-        <div class="members_card">
-            <h2>Name</h2>
-            <sup>something clever...</sup>
-            <figure>
-                <img src="images/chamber.png" alt="...">
-                <figcaption>
-                    <ul>
-                        <li><strong>Email:</strong> info@mail.co.za</li>
-                        <li><strong>Phone:</strong> +277 111 1111</li>
-                        <li><strong>URL:</strong> https://asdasda.asd</li>
-                    </ul>
-                </figcaption>
-            </figure>
-        </div>
+        <button id="toggle_members_view">toggle view</button>
+        <!--this template is used to map externally sourced members data to this container -->
+        <template id="directory_template">
+            <div class="members_card">
+                <h2 class="member_business"></h2>
+                <sub class="member_tagline"></sub>
+                <figure>
+                    <img class="member_logo" alt="member's logo">
+                    <figcaption>
+                        <ul>
+                            <li><strong>Email: </strong> <a class="member_email"></a></li>
+                            <li><strong>Phone: </strong> <span class="member_phone"></span></li>
+                            <li><strong>URL: </strong><a target="_blank" class="member_website"></a></li>
+                        </ul>
+                    </figcaption>
+                </figure>
+            </div>
+        </template>
+
     </section>
 </main>
+
+<footer>
+    <div id="footer_wrapper">
+        <section>
+            <h2 hidden>...</h2>
+            <p><strong>Polokwane Chamber of Commerce</strong></p>
+            <p>29A Oost Street</p>
+            <p>Polokwane, 0699</p>
+            <p>info@pcc.org</p>
+            <p>+27 15 295 1284</p>
+        </section>
+        <section>
+            <h2 hidden>...</h2>
+            <div><a target="_blank" href="https://youtube.com"><img src="images/bakone-accounting.webp" alt="youtube"></a></div>
+            <div><a href="https://x.com" target="_blank"><img src="images/x.webp" alt="X"></a></div>
+            <div><a href="https://www.linkedin.com/in/katlego-kgwetiane-31b463a9/" target="_blank"><img src="images/zebula-construction.webp" alt="linkedin"></a></div>
+        </section>
+        <section>
+            <h2 hidden>...</h2>
+            <p>WDD231 Class Project</p>
+            <p>M. Katlego Kgwetiane</p>
+            <p>©<span id="currentyear"></span> Polokwane Chamber of Commerce</p>
+            <p id="lastModified"></p>
+        </section>
+    </div>
+
+</footer>
 </body>
 </html>
