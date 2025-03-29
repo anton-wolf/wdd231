@@ -47,15 +47,10 @@ header {
     padding: 5px;
 }
 
-header h1 {
+header h2 {
     align-self: center;
-    text-align: start;
+    text-align: center;
     padding: 10px;
-
-}
-header h1 span {
-    font-size: .75rem;
-    display: block;
 }
 
 #header_title div {
@@ -66,7 +61,7 @@ header h1 span {
     justify-self: center;
 }
 
-#menu,.theme,.theme_mobile {
+#menu, .theme, .theme_mobile {
     color: white;
     display: flex;
     font-size: 2rem;
@@ -75,7 +70,8 @@ header h1 span {
     padding: 0.5rem 0.75rem;
     align-items: center;
 }
-.theme, .theme_mobile{
+
+.theme, .theme_mobile {
     width: initial;
     display: flex;
 }
@@ -84,7 +80,7 @@ header h1 span {
     content: "≡";
 }
 
-.theme::before,.theme_mobile::before{
+.theme::before, .theme_mobile::before {
     content: "◑";
 }
 
@@ -156,9 +152,15 @@ main {
     display: grid;
     margin: auto;
     grid-template-areas:
+            "h1"
             "section1"
             "section2"
             "section3";
+}
+
+h1{
+    grid-area: h1;
+    text-align: center;
 }
 
 .main_descendents {
