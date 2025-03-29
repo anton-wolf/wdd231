@@ -21,11 +21,18 @@
     .navigation {
         display: flex;
         flex-wrap: unset;
-        border:none;
+        border: none;
     }
 
+    .hero img {
+        border-radius: 50px;
+    }
 
-    #temples_container {
-        grid-template-columns: 1fr 1fr;
+    .home_section {
+        grid-template-areas:
+                "h2 h2 h2 h2"
+                "div1 div1 div1 div1"
+                "div2 div2 div3  div3";
+        max-width: 640px;
     }
 }
