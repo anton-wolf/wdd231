@@ -9,4 +9,23 @@
             "div1 div1 div1 div2 div3";
         max-width: 1140px;
     }
+
+    .members_section {
+        grid-template-columns: repeat(3, 1fr);
+        max-width: 1140px;
+    }
+
+    .members_card figure {
+        gap: .25rem;
+        grid-template-areas:
+            "img caption caption caption";
+    }
+
+    .members_card figure * {
+        justify-self: unset;
+    }
+
+    .members_card figure figcaption ul {
+        width: unset;
+    }
 }

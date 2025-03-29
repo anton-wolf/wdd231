@@ -35,4 +35,24 @@
                 "div2 div2 div3  div3";
         max-width: 640px;
     }
+
+    .members_section {
+        grid-template-columns: repeat(2, 1fr);
+        max-width: 640px;
+    }
+
+    .members_card figure {
+        gap: unset;
+        grid-template-areas:
+            "img"
+            "caption";
+    }
+
+    .members_card figure * {
+        justify-self: center;
+    }
+
+    .members_card figure figcaption ul {
+        width: 158px;
+    }
 }

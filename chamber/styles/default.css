@@ -19,6 +19,11 @@ h1, h2, h3, a {
     font-size: 1.3rem;
 }
 
+ul {
+    list-style: none;
+    padding: 0;
+}
+
 
 /*Header and navigation styling*/
 
@@ -111,7 +116,6 @@ nav ul li a {
 
 .navigation {
     display: none;
-    list-style: none;
     align-items: center;
     height: 100%;
     flex-wrap: wrap;
@@ -133,6 +137,7 @@ nav ul li a {
 }
 
 /* main content styling */
+
 main {
     max-width: 1280px;
     display: grid;
@@ -143,8 +148,7 @@ main {
             "section3";
 }
 
-.main_descendents{
-    margin: auto;
+.main_descendents {
     justify-self: center;
 }
 
@@ -201,17 +205,67 @@ main {
     border: solid thin lightgray;
     border-radius: 3px;
     height: 200px;
+    width: 100%;
 }
 
 .home_card h3 {
     font-weight: 500;
     font-size: unset;
-    background-color: var(--accent_colour);
+    background-color: var(--secondary_colour);
     padding: 5px;
 }
 
-/* chamber member cards */
+/* chamber members styling */
 
-.main_descendents:nth-child(3) {
+.members_section {
     grid-area: section3;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: .75rem;
+    width: -webkit-fill-available;
+    padding: 15px;
 }
+
+.members_card {
+    display: grid;
+    background-color: var(--accent_colour);
+    border-radius: 10px;
+    width: 100%;
+}
+
+.members_card h2 {
+    text-align: center;
+    padding: 5px;
+    font-size: 1.1rem;
+}
+
+.members_card sup {
+    text-align: center;
+    top: unset;
+    border-bottom: solid thin white;
+    padding: 5px 5px 10px;
+}
+
+.members_card figure {
+    display: grid;
+    gap: .75rem;
+    grid-template-areas:
+            "img caption caption caption";
+}
+
+.members_card figure img {
+    grid-area: img;
+    align-self: center;
+    width: 50px;
+    border-radius: 4px;
+}
+
+.members_card figure figcaption {
+    grid-area: caption;
+    align-self: center;
+}
+
+.members_card figure figcaption ul {
+    width: unset;
+}
+
