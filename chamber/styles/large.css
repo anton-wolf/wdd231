@@ -6,10 +6,15 @@
 
     main.join {
         grid-template-areas:
+    "h1"
     "section section";
         grid-template-columns:repeat(2, 1fr);
         gap: 20px;
         padding: 20px 0;
+    }
+
+    .join h1{
+        grid-column: span 2;
     }
 
     main.join section {

@@ -401,11 +401,16 @@ footer {
 
 main.join {
     grid-template-areas:
-    "section" "section";
+    "h1" "section" "section";
     grid-template-columns:1fr;
     gap: 20px;
 }
 
+.join h1{
+    grid-column:span 1;
+    grid-area:unset;
+    padding:25px;
+}
 main.join section {
     padding: 20px;
 }
