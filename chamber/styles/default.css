@@ -512,12 +512,14 @@ button:hover {
 @keyframes fadeInDown {
     0% {
         transform: translateY(-50px);
-        @apply opacity-0 will-change-transform
+        opacity: 0;
+        will-change: transform;
     }
 
     100% {
         transform: translateY(0);
-        @apply opacity-100 will-change-transform
+        opacity: 1;
+        will-change: transform;
     }
 }
 
@@ -567,20 +569,22 @@ dialog {
     margin: 40px;
     max-width: 50ch;
 }
-.verify li{
+
+.verify li {
     margin: 5px 0;
 }
 
-.verify p{
+.verify p {
     margin: unset;
 }
 
 h1.veri {
     padding: 20px;
 }
-h2.veri{
-    justify-self:center;
-    font-size:1.1rem;
+
+h2.veri {
+    justify-self: center;
+    font-size: 1.1rem;
 }
 
 

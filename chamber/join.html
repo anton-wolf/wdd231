@@ -67,6 +67,7 @@
 
 <main class="join">
     <section>
+        <h2 hidden>...</h2>
         <form method="get" action="thankyou.html">
             <fieldset>
                 <legend>Membership application form</legend>
@@ -93,11 +94,11 @@
                 </div>
                 <div>
                     <label for="org">Business/Organization Name:</label>
-                    <input type=tel name="org" autocomplete="organization" id="org">
+                    <input type=text name="org" autocomplete="organization" id="org">
                 </div>
                 <div>
                     <label for="level">Membership Level:</label>
-                    <select  name="level" id="level">
+                    <select name="level" id="level">
                         <option>Select Option</option>
                         <option
                                 value="Non-profit members (free)">
@@ -116,6 +117,7 @@ Name.
 Description.
 "></textarea>
                 </div>
+                <input type="hidden" id="formLoadTime" name="form_load_time">
             </fieldset>
             <button type="submit">Apply</button>
         </form>

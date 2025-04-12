@@ -17,6 +17,7 @@ verifying_clone.querySelector(".veri_mobile").textContent = params.get("mobile")
 verifying_clone.querySelector(".veri_org").textContent = params.get("org");
 verifying_clone.querySelector(".veri_level").textContent = params.get("level");
 verifying_clone.querySelector(".veri_descrip").textContent = params.get("description");
+verifying_clone.querySelector(".veri_time").textContent = params.get("form_load_time");
 
 container.append(verifying_clone);
 

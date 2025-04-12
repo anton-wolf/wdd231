@@ -33,7 +33,7 @@ document.querySelector(".levels").childNodes.forEach(child => {
 
                             clone.querySelector(".level_benefits").append(...elements);
 
-                            clone.querySelector(".close-button").addEventListener("click",()=>{
+                            clone.querySelector(".close-button").addEventListener("click", () => {
                                 modal.close();
                                 modal.textContent = "";
                             })
@@ -45,3 +45,7 @@ document.querySelector(".levels").childNodes.forEach(child => {
         });
     });
 });
+
+
+const formLoadTime = document.querySelector("#formLoadTime");
+formLoadTime.value = document.lastModified;
