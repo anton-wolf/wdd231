@@ -18,7 +18,6 @@
         display: block;
     }
 
-
     nav {
         max-width: 358px;
         flex: 1 1 100%;
@@ -102,5 +101,9 @@
 
     #footer_wrapper section {
         width: unset;
+    }
+
+    main.join{
+        padding: 20px 40px;
     }
 }

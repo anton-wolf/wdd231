@@ -18,5 +18,6 @@ document.querySelector('.navigation').addEventListener("click", function (event)
 
         // Add 'active' to the clicked link
         event.target.classList.add('active');
+
     }
 });

@@ -3,4 +3,16 @@
     .hero img {
         border-radius: 75px;
     }
+
+    main.join {
+        grid-template-areas:
+    "section section";
+        grid-template-columns:repeat(2, 1fr);
+        gap: 20px;
+        padding: 20px 0;
+    }
+
+    main.join section {
+        padding: 20px;
+    }
 }

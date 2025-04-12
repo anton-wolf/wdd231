@@ -1,0 +1,41 @@
+{
+  "none-profit": {
+    "level": "None-Profit",
+    "cost": 0,
+    "benefits": [
+      "Basic access to chamber resources",
+      "Networking opportunities with other businesses",
+      "Participation in select community events"
+    ]
+  },
+  "bronze": {
+    "level": "Bronze",
+    "cost": 1000,
+    "benefits": [
+      "All None-Profit benefits",
+      "Discounted access to training & workshops",
+      "Business listing in chamber directory"
+    ]
+  },
+  "silver": {
+    "level": "Silver",
+    "cost": 2000,
+    "benefits": [
+      "All Bronze benefits",
+      "Priority listing in chamber directory",
+      "Advertising opportunities (spotlight positions on home page)",
+      "Exclusive member-only networking events"
+    ]
+  },
+  "gold": {
+    "level": "Gold",
+    "cost": 4000,
+    "benefits": [
+      "All Silver benefits",
+      "Major sponsorship opportunities",
+      "Premium advertising & promotional features",
+      "VIP access to high-profile business events",
+      "Significant discounts on chamber-hosted events"
+    ]
+  }
+}

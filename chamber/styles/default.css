@@ -158,7 +158,8 @@ main {
             "section3";
 }
 
-h1{
+
+h1 {
     grid-area: h1;
     text-align: center;
 }
@@ -396,3 +397,190 @@ footer {
 #footer_wrapper section:nth-child(2) div img {
     width: 100%;
 }
+
+
+main.join {
+    grid-template-areas:
+    "section" "section";
+    grid-template-columns:1fr;
+    gap: 20px;
+}
+
+main.join section {
+    padding: 20px;
+}
+
+.join section form fieldset {
+    border-radius: 5px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    border: var(--secondary_colour) solid 2px;
+
+}
+
+.join form div {
+    display: grid;
+    margin: 10px 0;
+}
+
+.join form div label {
+    margin: 5px;
+}
+
+
+.join form div input:not([type="radio"]), select, textarea, button {
+    padding: 10px;
+    border-radius: 3px;
+    border: solid 2px var(--accent_colour);
+}
+
+.levels {
+    display: grid;
+    align-content: start;
+}
+
+.levels h2 {
+    justify-self: center;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+.type {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    height: fit-content;
+    background: var(--accent_colour);
+    padding: 10px;
+    border-radius: 5px;
+    margin: 5px;
+
+}
+
+.type img {
+    width: 40px;
+    align-self: center;
+    padding: 0 20px;
+    position: relative;
+    border-right: solid medium white
+}
+
+.type div {
+    display: grid;
+}
+
+.type h3 {
+    justify-self: center;
+    padding: 5px;
+    text-align: center;
+    font-size: 1.1em
+}
+
+.type button {
+    justify-self: center;
+    width: unset;
+    margin: unset;
+    background: unset;
+    border: unset;
+    background: var(--secondary_colour);
+    font-size: unset;
+    border: unset;
+    color: unset;
+}
+
+
+button {
+    margin: 1rem 0;
+    width: 100%;
+    background: var(--primary_colour);
+    border-radius: 5px;
+    font-size: 1.5em;
+    cursor: pointer;
+    color: white;
+}
+
+button:hover {
+    background-color: var(--secondary_colour);
+    color: unset;
+}
+
+.fadeInDown {
+    animation-name: fadeInDown;
+    animation-duration: 500ms;
+    animation-delay: 100ms;
+}
+
+@keyframes fadeInDown {
+    0% {
+        transform: translateY(-50px);
+        @apply opacity-0 will-change-transform
+    }
+
+    100% {
+        transform: translateY(0);
+        @apply opacity-100 will-change-transform
+    }
+}
+
+.modal {
+    padding: 1em;
+    max-width: 50ch;
+    border: 0;
+    box-shadow: 0 0 1em rgb(0 0 0 / 0.3);
+}
+
+.modal h2 {
+    margin-top: 30px;
+}
+
+.modal::backdrop {
+    background: rgb(0 0 0 / 0.5);
+}
+
+.close-button {
+    position: absolute;
+    top: -16px;
+    right: 0;
+    border: none;
+    background: unset;
+    width: 50px;
+}
+
+.close-button:hover {
+    background: initial;
+}
+
+dialog {
+
+    border-radius: 10px;
+    border: 1px solid rgb(0 0 0 / 0.1);
+}
+
+.level_benefits li {
+    margin: 5px 0
+}
+
+.verify {
+    justify-self: center;
+    padding: 20px;
+    border-radius: 5px;
+    background: var(--secondary_colour);
+    margin: 40px;
+    max-width: 50ch;
+}
+.verify li{
+    margin: 5px 0;
+}
+
+.verify p{
+    margin: unset;
+}
+
+h1.veri {
+    padding: 20px;
+}
+h2.veri{
+    justify-self:center;
+    font-size:1.1rem;
+}
+
+

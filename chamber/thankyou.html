@@ -1,0 +1,117 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=5">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="description"
+          content="Join Polokwane Chamber of Commerce">
+    <meta name="author" content="Katlego Kgwetiane - WDD231">
+
+    <meta property="og:title" content="Join Polokwane Chamber of Commerce">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="https://anton-wolf.github.io/wdd231/chamber/images/directory-preview.jpg">
+    <meta property="og:url" content="https://anton-wolf.github.io/wdd231/chamber/directory.html">
+    <meta property="og:description" content="Join Polokwane Chamber of Commerce">
+    <meta property="og:site_name" content="Join Polokwane Chamber of Commerce">
+
+    <title>Polokwane Chamber of Commerce Thank you for joining</title>
+    <link rel="icon" href="favicon.ico">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/default.css">
+    <link rel="stylesheet" href="styles/medium.css">
+    <link rel="stylesheet" href="styles/large.css">
+    <link rel="stylesheet" href="styles/larger.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100..900&family=Questrial&display=swap"
+          rel="stylesheet">
+    <script src="scripts/navigation.js" defer></script>
+    <script src="scripts/thankyou.js" defer></script>
+    <script src="scripts/getdates.js" defer></script>
+</head>
+<body>
+<header>
+    <div id="header_title">
+        <img src="images/chamber.webp" alt="polokwane chamber of commerce">
+        <div>
+            <h2>
+                Polokwane
+            </h2>
+            <sup>Chamber of Commerce</sup>
+        </div>
+    </div>
+    <a class="theme_mobile" href="#" aria-label="Theme"></a>
+    <a id="menu" href="#" aria-label="Menu"></a>
+    <nav>
+        <ul class="navigation">
+            <li>
+                <a href="index.html">Home</a>
+            </li>
+            <li>
+                <a href="directory.html">Directory</a>
+            </li>
+            <li>
+                <a href="#">Join</a>
+            </li>
+            <li>
+                <a href="#">Discover</a>
+            </li>
+            <!--awaiting colour theme toggle-->
+            <li>
+                <a class="theme" href="#" aria-label="Theme"></a>
+            </li>
+        </ul>
+    </nav>
+</header>
+<main>
+    <h1 class="veri">Thank you for submitting!</h1>
+    <h2 class="veri">This is the information you provided:</h2>
+    <div class="verify"></div>
+    <template class="verifying_template">
+        <ul>
+            <li><strong>Full Name: </strong> <span class="veri_name"></span></li>
+            <li><strong>Surname: </strong><span class="veri_last"></span></li>
+            <li><strong>Business Title: </strong> <span class="veri_title"></span></li>
+            <li><strong>Email: </strong><span class="veri_email"></span></li>
+            <li><strong>Mobile: </strong><span class="veri_mobile"></span></li>
+            <li><strong>Business/Organization Name: </strong><span class="veri_org"></span></li>
+            <li><strong>Membership Level: </strong><span class="veri_level"></span></li>
+            <li><strong>Description:</strong></li>
+            <li>
+                <p class="veri_descrip"></p>
+            </li>
+        </ul>
+    </template>
+</main>
+
+<footer>
+    <div id="footer_wrapper">
+        <section>
+            <h2 hidden>...</h2>
+            <p><strong>Polokwane Chamber of Commerce</strong></p>
+            <p>29A Oost Street</p>
+            <p>Polokwane, 0699</p>
+            <p>info@pcc.org</p>
+            <p>+27 15 295 1284</p>
+        </section>
+        <section>
+            <h2 hidden>...</h2>
+            <div><a target="_blank" href="https://youtube.com"><img src="images/bakone-accounting.webp"
+                                                                    alt="youtube"></a></div>
+            <div><a href="https://x.com" target="_blank"><img src="images/x.webp" alt="X"></a></div>
+            <div><a href="https://www.linkedin.com/in/katlego-kgwetiane-31b463a9/" target="_blank"><img
+                    src="images/zebula-construction.webp" alt="linkedin"></a></div>
+        </section>
+        <section>
+            <h2 hidden>...</h2>
+            <p>WDD231 Class Project</p>
+            <p>M. Katlego Kgwetiane</p>
+            <p>©<span id="currentyear"></span> Polokwane Chamber of Commerce</p>
+            <p id="lastModified"></p>
+        </section>
+    </div>
+
+</footer>
+</body>
+</html>

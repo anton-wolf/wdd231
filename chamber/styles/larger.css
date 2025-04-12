@@ -1,5 +1,9 @@
 @media screen and (min-width: 64rem) {
 
+    main.join {
+        padding: 20px 40px;
+    }
+
     .hero img {
         border-radius: 100px;
     }
@@ -8,7 +12,7 @@
         grid-template-areas: "h2 h2 h2 h2"
             "div1 div1 div2 div3";
         max-width: 1140px;
-        grid-template-columns: repeat(4,1fr);
+        grid-template-columns: repeat(4, 1fr);
     }
 
     .members_section {
