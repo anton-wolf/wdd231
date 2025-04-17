@@ -584,6 +584,9 @@ footer {
   footer {
     #footer_wrapper {
       section {
+        &:nth-child(3){
+          text-align:end;
+        }
         &:nth-child(2) {
           display: grid;
           justify-content: center;

@@ -466,6 +466,9 @@ footer #footer_wrapper section:nth-child(2) {
     text-align: unset;
     flex: 1;
   }
+  footer #footer_wrapper section:nth-child(3) {
+    text-align: end;
+  }
   footer #footer_wrapper section:nth-child(2) {
     display: grid;
     justify-content: center;
