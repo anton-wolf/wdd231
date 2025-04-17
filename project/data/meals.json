@@ -1,0 +1,1928 @@
+[
+  {
+    "name": "Meal 1 with Zucchini",
+    "lastCooked": "17 Apr. 2025",
+    "serves": [
+      {
+        "adults": 2,
+        "children": 2,
+        "set": [
+          {
+            "ingredient": "Tomatoes",
+            "quantity": 138.4,
+            "unit": "tablespoon",
+            "instructions": [
+              "Add tomatoes to pan and stir",
+              "Cook for a few minutes"
+            ],
+            "cookingTime": [
+              91
+            ],
+            "preparation": [
+              {
+                "step": "Chop finely",
+                "earlyPrep": true
+              }
+            ]
+          },
+          {
+            "ingredient": "Broccoli",
+            "quantity": 197.0,
+            "unit": "tablespoon",
+            "instructions": [
+              "Add broccoli to pan and stir",
+              "Cook for a few minutes"
+            ],
+            "cookingTime": [
+              156
+            ]
+          },
+          {
+            "ingredient": "Chicken Breast",
+            "quantity": 46.7,
+            "unit": "tablespoon",
+            "instructions": [
+              "Add chicken breast to pan and stir",
+              "Cook for a few minutes"
+            ],
+            "cookingTime": [
+              93
+            ],
+            "preparation": [
+              {
+                "step": "Chop finely",
+                "earlyPrep": true
+              }
+            ]
+          },
+          {
+            "ingredient": "Peas",
+            "quantity": 180.3,
+            "unit": "grams",
+            "instructions": [
+              "Add peas to pan and stir",
+              "Cook for a few minutes"
+            ],
+            "cookingTime": [
+              124
+            ],
+            "preparation": [
+              {
+                "step": "Grate",
+                "earlyPrep": true
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Meal 2 with Bell Pepper",
+    "lastCooked": "16 Apr. 2025",
+    "serves": [
+      {
+        "adults": 2,
+        "children": 2,
+        "set": [
+          {
+            "ingredient": "Broccoli",
+            "quantity": 80.2,
+            "unit": "ml",
+            "instructions": [
+              "Add broccoli to pan and stir",
+              "Cook for a few minutes"
+            ],
+            "cookingTime": [
+              237
+            ],
+            "preparation": [
+              {
+                "step": "Chop finely",
+                "earlyPrep": true
+              }
+            ]
+          },
+          {
+            "ingredient": "Tomato Paste",
+            "quantity": 37.7,
+            "unit": "cups",
+            "instructions": [
+              "Add tomato paste to pan and stir",
+              "Cook for a few minutes"
+            ],
+            "cookingTime": [
+              265
+            ]
+          },
+          {
+            "ingredient": "Bell Pepper",
+            "quantity": 59.7,
+            "unit": "cups",
+            "instructions": [
+              "Add bell pepper to pan and stir",
+              "Cook for a few minutes"
+            ],
+            "cookingTime": [
+              346
+            ]
+          },
+          {
+            "ingredient": "Carrots",
+            "quantity": 107.8,
+            "unit": "tablespoon",
+            "instructions": [
+              "Add carrots to pan and stir",
+              "Cook for a few minutes"
+            ],
+            "cookingTime": [
+              175
+            ]
+          },
+          {
+            "ingredient": "Peas",
+            "quantity": 120.5,
+            "unit": "grams",
+            "instructions": [
+              "Add peas to pan and stir",
+              "Cook for a few minutes"
+            ],
+            "cookingTime": [
+              161
+            ]
+          },
+          {
+            "ingredient": "Cheddar Cheese",
+            "quantity": 94.6,
+            "unit": "grams",
+            "instructions": [
+              "Add cheddar cheese to pan and stir",
+              "Cook for a few minutes"
+            ],
+            "cookingTime": [
+              332
+            ],
+            "preparation": [
+              {
+                "step": "Chop finely",
+                "earlyPrep": true
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Meal 3 with Rice",
+    "lastCooked": "15 Apr. 2025",
+    "serves": [
+      {
+        "adults": 2,
+        "children": 2,
+        "set": [
+          {
+            "ingredient": "Rice",
+            "quantity": 36.7,
+            "unit": "tomatoes",
+            "instructions": [
+              "Add rice to pan and stir",
+              "Cook for a few minutes"
+            ],
+            "cookingTime": [
+              252
+            ]
+          },
+          {
+            "ingredient": "Sweetcorn",
+            "quantity": 128.3,
+            "unit": "tablespoon",
+            "instructions": [
+              "Add sweetcorn to pan and stir",
+              "Cook for a few minutes"
+            ],
+            "cookingTime": [
+              314
+            ],
+            "preparation": [
+              {
+                "step": "Grate",
+                "earlyPrep": true
+              }
+            ]
+          },
+          {
+            "ingredient": "Cheddar Cheese",
+            "quantity": 25.2,
+            "unit": "cups",
+            "instructions": [
+              "Add cheddar cheese to pan and stir",
+              "Cook for a few minutes"
+            ],
+            "cookingTime": [
+              315
+            ],
+            "preparation": [
+              {
+                "step": "Grate",
+                "earlyPrep": true
+              }
+            ]
+          },
+          {
+            "ingredient": "Peas",
+            "quantity": 168.8,
+            "unit": "tablespoon",
+            "instructions": [
+              "Add peas to pan and stir",
+              "Cook for a few minutes"
+            ],
+            "cookingTime": [
+              97
+            ]
+          },
+          {
+            "ingredient": "Cheddar Cheese",
+            "quantity": 79.8,
+            "unit": "ml",
+            "instructions": [
+              "Add cheddar cheese to pan and stir",
+              "Cook for a few minutes"
+            ],
+            "cookingTime": [
+              274
+            ],
+            "preparation": [
+              {
+                "step": "Grate",
+                "earlyPrep": true
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Meal 4 with Mushrooms",
+    "lastCooked": "14 Apr. 2025",
+    "serves": [
+      {
+        "adults": 2,
+        "children": 2,
+        "set": [
+          {
+            "ingredient": "Green Beans",
+            "quantity": 40.3,
+            "unit": "ml",
+            "instructions": [
+              "Add green beans to pan and stir",
+              "Cook for a few minutes"
+            ],
+            "cookingTime": [
+              238
+            ],
+            "preparation": [
+              {
+                "step": "Chop finely",
+                "earlyPrep": true
+              }
+            ]
+          },
+          {
+            "ingredient": "Sweetcorn",
+            "quantity": 134.6,
+            "unit": "pieces",
+            "instructions": [
+              "Add sweetcorn to pan and stir",
+              "Cook for a few minutes"
+            ],
+            "cookingTime": [
+              235
+            ]
+          },
+          {
+            "ingredient": "Beef Strips",
+            "quantity": 117.1,
+            "unit": "tablespoon",
+            "instructions": [
+              "Add beef strips to pan and stir",
+              "Cook for a few minutes"
+            ],
+            "cookingTime": [
+              193
+            ],
+            "preparation": [
+              {
+                "step": "Grate",
+                "earlyPrep": true
+              }
+            ]
+          },
+          {
+            "ingredient": "Onion",
+            "quantity": 199.3,
+            "unit": "tablespoon",
+            "instructions": [
+              "Add onion to pan and stir",
+              "Cook for a few minutes"
+            ],
+            "cookingTime": [
+              188
+            ],
+            "preparation": [
+              {
+                "step": "Grate",
+                "earlyPrep": true
+              }
+            ]
+          },
+          {
+            "ingredient": "Green Beans",
+            "quantity": 143.9,
+            "unit": "tablespoon",
+            "instructions": [
+              "Add green beans to pan and stir",
+              "Cook for a few minutes"
+            ],
+            "cookingTime": [
+              253
+            ]
+          },
+          {
+            "ingredient": "Tomato Paste",
+            "quantity": 63.1,
+            "unit": "tomatoes",
+            "instructions": [
+              "Add tomato paste to pan and stir",
+              "Cook for a few minutes"
+            ],
+            "cookingTime": [
+              99
+            ],
+            "preparation": [
+              {
+                "step": "Grate",
+                "earlyPrep": true
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Meal 5 with Bell Pepper",
+    "lastCooked": "11 Apr. 2025",
+    "serves": [
+      {
+        "adults": 2,
+        "children": 2,
+        "set": [
+          {
+            "ingredient": "Beef Strips",
+            "quantity": 66.6,
+            "unit": "pieces",
+            "instructions": [
+              "Add beef strips to pan and stir",
+              "Cook for a few minutes"
+            ],
+            "cookingTime": [
+              350
+            ],
+            "preparation": [
+              {
+                "step": "Chop finely",
+                "earlyPrep": true
+              }
+            ]
+          },
+          {
+            "ingredient": "Tomato Paste",
+            "quantity": 128.7,
+            "unit": "tablespoon",
+            "instructions": [
+              "Add tomato paste to pan and stir",
+              "Cook for a few minutes"
+            ],
+            "cookingTime": [
+              96
+            ],
+            "preparation": [
+              {
+                "step": "Grate",
+                "earlyPrep": true
+              }
+            ]
+          },
+          {
+            "ingredient": "Peas",
+            "quantity": 124.4,
+            "unit": "tomatoes",
+            "instructions": [
+              "Add peas to pan and stir",
+              "Cook for a few minutes"
+            ],
+            "cookingTime": [
+              259
+            ],
+            "preparation": [
+              {
+                "step": "Grate",
+                "earlyPrep": true
+              }
+            ]
+          },
+          {
+            "ingredient": "Onion",
+            "quantity": 82.9,
+            "unit": "ml",
+            "instructions": [
+              "Add onion to pan and stir",
+              "Cook for a few minutes"
+            ],
+            "cookingTime": [
+              94
+            ],
+            "preparation": [
+              {
+                "step": "Grate",
+                "earlyPrep": true
+              }
+            ]
+          },
+          {
+            "ingredient": "Garlic",
+            "quantity": 105.5,
+            "unit": "tomatoes",
+            "instructions": [
+              "Add garlic to pan and stir",
+              "Cook for a few minutes"
+            ],
+            "cookingTime": [
+              194
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Meal 6 with Carrots",
+    "lastCooked": "10 Apr. 2025",
+    "serves": [
+      {
+        "adults": 2,
+        "children": 2,
+        "set": [
+          {
+            "ingredient": "Garlic",
+            "quantity": 66.1,
+            "unit": "grams",
+            "instructions": [
+              "Add garlic to pan and stir",
+              "Cook for a few minutes"
+            ],
+            "cookingTime": [
+              120
+            ]
+          },
+          {
+            "ingredient": "Potatoes",
+            "quantity": 96.8,
+            "unit": "ml",
+            "instructions": [
+              "Add potatoes to pan and stir",
+              "Cook for a few minutes"
+            ],
+            "cookingTime": [
+              275
+            ]
+          },
+          {
+            "ingredient": "Zucchini",
+            "quantity": 141.3,
+            "unit": "tablespoon",
+            "instructions": [
+              "Add zucchini to pan and stir",
+              "Cook for a few minutes"
+            ],
+            "cookingTime": [
+              355
+            ],
+            "preparation": [
+              {
+                "step": "Grate",
+                "earlyPrep": true
+              }
+            ]
+          },
+          {
+            "ingredient": "Coconut Milk",
+            "quantity": 160.0,
+            "unit": "tomatoes",
+            "instructions": [
+              "Add coconut milk to pan and stir",
+              "Cook for a few minutes"
+            ],
+            "cookingTime": [
+              282
+            ],
+            "preparation": [
+              {
+                "step": "Grate",
+                "earlyPrep": true
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Meal 7 with Zucchini",
+    "lastCooked": "09 Apr. 2025",
+    "serves": [
+      {
+        "adults": 2,
+        "children": 2,
+        "set": [
+          {
+            "ingredient": "Coconut Milk",
+            "quantity": 35.2,
+            "unit": "tablespoon",
+            "instructions": [
+              "Add coconut milk to pan and stir",
+              "Cook for a few minutes"
+            ],
+            "cookingTime": [
+              180
+            ]
+          },
+          {
+            "ingredient": "Eggplant",
+            "quantity": 66.8,
+            "unit": "cups",
+            "instructions": [
+              "Add eggplant to pan and stir",
+              "Cook for a few minutes"
+            ],
+            "cookingTime": [
+              332
+            ],
+            "preparation": [
+              {
+                "step": "Chop finely",
+                "earlyPrep": true
+              }
+            ]
+          },
+          {
+            "ingredient": "Cheddar Cheese",
+            "quantity": 189.9,
+            "unit": "ml",
+            "instructions": [
+              "Add cheddar cheese to pan and stir",
+              "Cook for a few minutes"
+            ],
+            "cookingTime": [
+              337
+            ],
+            "preparation": [
+              {
+                "step": "Grate",
+                "earlyPrep": true
+              }
+            ]
+          },
+          {
+            "ingredient": "Onion",
+            "quantity": 78.5,
+            "unit": "tablespoon",
+            "instructions": [
+              "Add onion to pan and stir",
+              "Cook for a few minutes"
+            ],
+            "cookingTime": [
+              259
+            ],
+            "preparation": [
+              {
+                "step": "Chop finely",
+                "earlyPrep": true
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Meal 8 with Tomatoes",
+    "lastCooked": "08 Apr. 2025",
+    "serves": [
+      {
+        "adults": 2,
+        "children": 2,
+        "set": [
+          {
+            "ingredient": "Broccoli",
+            "quantity": 94.0,
+            "unit": "tablespoon",
+            "instructions": [
+              "Add broccoli to pan and stir",
+              "Cook for a few minutes"
+            ],
+            "cookingTime": [
+              133
+            ]
+          },
+          {
+            "ingredient": "Garlic",
+            "quantity": 50.7,
+            "unit": "tomatoes",
+            "instructions": [
+              "Add garlic to pan and stir",
+              "Cook for a few minutes"
+            ],
+            "cookingTime": [
+              91
+            ]
+          },
+          {
+            "ingredient": "Eggplant",
+            "quantity": 105.7,
+            "unit": "cups",
+            "instructions": [
+              "Add eggplant to pan and stir",
+              "Cook for a few minutes"
+            ],
+            "cookingTime": [
+              333
+            ],
+            "preparation": [
+              {
+                "step": "Chop finely",
+                "earlyPrep": true
+              }
+            ]
+          },
+          {
+            "ingredient": "Chicken Breast",
+            "quantity": 121.7,
+            "unit": "tablespoon",
+            "instructions": [
+              "Add chicken breast to pan and stir",
+              "Cook for a few minutes"
+            ],
+            "cookingTime": [
+              121
+            ],
+            "preparation": [
+              {
+                "step": "Grate",
+                "earlyPrep": true
+              }
+            ]
+          },
+          {
+            "ingredient": "Sweetcorn",
+            "quantity": 74.0,
+            "unit": "tomatoes",
+            "instructions": [
+              "Add sweetcorn to pan and stir",
+              "Cook for a few minutes"
+            ],
+            "cookingTime": [
+              187
+            ],
+            "preparation": [
+              {
+                "step": "Grate",
+                "earlyPrep": true
+              }
+            ]
+          },
+          {
+            "ingredient": "Beef Strips",
+            "quantity": 116.7,
+            "unit": "cups",
+            "instructions": [
+              "Add beef strips to pan and stir",
+              "Cook for a few minutes"
+            ],
+            "cookingTime": [
+              219
+            ],
+            "preparation": [
+              {
+                "step": "Grate",
+                "earlyPrep": true
+              }
+            ]
+          },
+          {
+            "ingredient": "Pasta",
+            "quantity": 32.7,
+            "unit": "cups",
+            "instructions": [
+              "Add pasta to pan and stir",
+              "Cook for a few minutes"
+            ],
+            "cookingTime": [
+              206
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Meal 9 with Coconut Milk",
+    "lastCooked": "07 Apr. 2025",
+    "serves": [
+      {
+        "adults": 2,
+        "children": 2,
+        "set": [
+          {
+            "ingredient": "Sweetcorn",
+            "quantity": 78.5,
+            "unit": "tomatoes",
+            "instructions": [
+              "Add sweetcorn to pan and stir",
+              "Cook for a few minutes"
+            ],
+            "cookingTime": [
+              308
+            ],
+            "preparation": [
+              {
+                "step": "Chop finely",
+                "earlyPrep": true
+              }
+            ]
+          },
+          {
+            "ingredient": "Beef Strips",
+            "quantity": 196.4,
+            "unit": "tomatoes",
+            "instructions": [
+              "Add beef strips to pan and stir",
+              "Cook for a few minutes"
+            ],
+            "cookingTime": [
+              135
+            ],
+            "preparation": [
+              {
+                "step": "Grate",
+                "earlyPrep": true
+              }
+            ]
+          },
+          {
+            "ingredient": "Tomato Paste",
+            "quantity": 41.3,
+            "unit": "ml",
+            "instructions": [
+              "Add tomato paste to pan and stir",
+              "Cook for a few minutes"
+            ],
+            "cookingTime": [
+              242
+            ],
+            "preparation": [
+              {
+                "step": "Chop finely",
+                "earlyPrep": true
+              }
+            ]
+          },
+          {
+            "ingredient": "Rice",
+            "quantity": 30.7,
+            "unit": "pieces",
+            "instructions": [
+              "Add rice to pan and stir",
+              "Cook for a few minutes"
+            ],
+            "cookingTime": [
+              98
+            ],
+            "preparation": [
+              {
+                "step": "Chop finely",
+                "earlyPrep": true
+              }
+            ]
+          },
+          {
+            "ingredient": "Bell Pepper",
+            "quantity": 189.1,
+            "unit": "tablespoon",
+            "instructions": [
+              "Add bell pepper to pan and stir",
+              "Cook for a few minutes"
+            ],
+            "cookingTime": [
+              259
+            ],
+            "preparation": [
+              {
+                "step": "Grate",
+                "earlyPrep": true
+              }
+            ]
+          },
+          {
+            "ingredient": "Tomato Paste",
+            "quantity": 118.6,
+            "unit": "tomatoes",
+            "instructions": [
+              "Add tomato paste to pan and stir",
+              "Cook for a few minutes"
+            ],
+            "cookingTime": [
+              275
+            ]
+          },
+          {
+            "ingredient": "Coconut Milk",
+            "quantity": 157.6,
+            "unit": "pieces",
+            "instructions": [
+              "Add coconut milk to pan and stir",
+              "Cook for a few minutes"
+            ],
+            "cookingTime": [
+              185
+            ],
+            "preparation": [
+              {
+                "step": "Grate",
+                "earlyPrep": true
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Meal 10 with Onion",
+    "lastCooked": "04 Apr. 2025",
+    "serves": [
+      {
+        "adults": 2,
+        "children": 2,
+        "set": [
+          {
+            "ingredient": "Tomatoes",
+            "quantity": 34.2,
+            "unit": "tomatoes",
+            "instructions": [
+              "Add tomatoes to pan and stir",
+              "Cook for a few minutes"
+            ],
+            "cookingTime": [
+              351
+            ],
+            "preparation": [
+              {
+                "step": "Grate",
+                "earlyPrep": true
+              }
+            ]
+          },
+          {
+            "ingredient": "Carrots",
+            "quantity": 36.0,
+            "unit": "cups",
+            "instructions": [
+              "Add carrots to pan and stir",
+              "Cook for a few minutes"
+            ],
+            "cookingTime": [
+              353
+            ],
+            "preparation": [
+              {
+                "step": "Chop finely",
+                "earlyPrep": true
+              }
+            ]
+          },
+          {
+            "ingredient": "Cheddar Cheese",
+            "quantity": 27.6,
+            "unit": "tablespoon",
+            "instructions": [
+              "Add cheddar cheese to pan and stir",
+              "Cook for a few minutes"
+            ],
+            "cookingTime": [
+              291
+            ],
+            "preparation": [
+              {
+                "step": "Chop finely",
+                "earlyPrep": true
+              }
+            ]
+          },
+          {
+            "ingredient": "Bell Pepper",
+            "quantity": 116.4,
+            "unit": "grams",
+            "instructions": [
+              "Add bell pepper to pan and stir",
+              "Cook for a few minutes"
+            ],
+            "cookingTime": [
+              286
+            ],
+            "preparation": [
+              {
+                "step": "Grate",
+                "earlyPrep": true
+              }
+            ]
+          },
+          {
+            "ingredient": "Tomato Paste",
+            "quantity": 22.1,
+            "unit": "grams",
+            "instructions": [
+              "Add tomato paste to pan and stir",
+              "Cook for a few minutes"
+            ],
+            "cookingTime": [
+              183
+            ],
+            "preparation": [
+              {
+                "step": "Chop finely",
+                "earlyPrep": true
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Meal 11 with Mushrooms",
+    "lastCooked": "03 Apr. 2025",
+    "serves": [
+      {
+        "adults": 2,
+        "children": 2,
+        "set": [
+          {
+            "ingredient": "Tomato Paste",
+            "quantity": 36.1,
+            "unit": "grams",
+            "instructions": [
+              "Add tomato paste to pan and stir",
+              "Cook for a few minutes"
+            ],
+            "cookingTime": [
+              351
+            ]
+          },
+          {
+            "ingredient": "Chicken Breast",
+            "quantity": 144.6,
+            "unit": "grams",
+            "instructions": [
+              "Add chicken breast to pan and stir",
+              "Cook for a few minutes"
+            ],
+            "cookingTime": [
+              232
+            ]
+          },
+          {
+            "ingredient": "Tomato Paste",
+            "quantity": 54.0,
+            "unit": "tablespoon",
+            "instructions": [
+              "Add tomato paste to pan and stir",
+              "Cook for a few minutes"
+            ],
+            "cookingTime": [
+              251
+            ],
+            "preparation": [
+              {
+                "step": "Grate",
+                "earlyPrep": true
+              }
+            ]
+          },
+          {
+            "ingredient": "Sweetcorn",
+            "quantity": 87.1,
+            "unit": "tablespoon",
+            "instructions": [
+              "Add sweetcorn to pan and stir",
+              "Cook for a few minutes"
+            ],
+            "cookingTime": [
+              222
+            ],
+            "preparation": [
+              {
+                "step": "Grate",
+                "earlyPrep": true
+              }
+            ]
+          },
+          {
+            "ingredient": "Carrots",
+            "quantity": 24.2,
+            "unit": "tablespoon",
+            "instructions": [
+              "Add carrots to pan and stir",
+              "Cook for a few minutes"
+            ],
+            "cookingTime": [
+              209
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Meal 12 with Pasta",
+    "lastCooked": "02 Apr. 2025",
+    "serves": [
+      {
+        "adults": 2,
+        "children": 2,
+        "set": [
+          {
+            "ingredient": "Cheddar Cheese",
+            "quantity": 102.5,
+            "unit": "grams",
+            "instructions": [
+              "Add cheddar cheese to pan and stir",
+              "Cook for a few minutes"
+            ],
+            "cookingTime": [
+              228
+            ]
+          },
+          {
+            "ingredient": "Coconut Milk",
+            "quantity": 74.1,
+            "unit": "pieces",
+            "instructions": [
+              "Add coconut milk to pan and stir",
+              "Cook for a few minutes"
+            ],
+            "cookingTime": [
+              154
+            ]
+          },
+          {
+            "ingredient": "Onion",
+            "quantity": 166.8,
+            "unit": "ml",
+            "instructions": [
+              "Add onion to pan and stir",
+              "Cook for a few minutes"
+            ],
+            "cookingTime": [
+              318
+            ]
+          },
+          {
+            "ingredient": "Chicken Breast",
+            "quantity": 188.1,
+            "unit": "pieces",
+            "instructions": [
+              "Add chicken breast to pan and stir",
+              "Cook for a few minutes"
+            ],
+            "cookingTime": [
+              145
+            ],
+            "preparation": [
+              {
+                "step": "Chop finely",
+                "earlyPrep": true
+              }
+            ]
+          },
+          {
+            "ingredient": "Cheddar Cheese",
+            "quantity": 90.8,
+            "unit": "grams",
+            "instructions": [
+              "Add cheddar cheese to pan and stir",
+              "Cook for a few minutes"
+            ],
+            "cookingTime": [
+              358
+            ],
+            "preparation": [
+              {
+                "step": "Chop finely",
+                "earlyPrep": true
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Meal 13 with Sweetcorn",
+    "lastCooked": "01 Apr. 2025",
+    "serves": [
+      {
+        "adults": 2,
+        "children": 2,
+        "set": [
+          {
+            "ingredient": "Zucchini",
+            "quantity": 65.8,
+            "unit": "cups",
+            "instructions": [
+              "Add zucchini to pan and stir",
+              "Cook for a few minutes"
+            ],
+            "cookingTime": [
+              227
+            ],
+            "preparation": [
+              {
+                "step": "Grate",
+                "earlyPrep": true
+              }
+            ]
+          },
+          {
+            "ingredient": "Garlic",
+            "quantity": 160.9,
+            "unit": "tablespoon",
+            "instructions": [
+              "Add garlic to pan and stir",
+              "Cook for a few minutes"
+            ],
+            "cookingTime": [
+              156
+            ],
+            "preparation": [
+              {
+                "step": "Grate",
+                "earlyPrep": true
+              }
+            ]
+          },
+          {
+            "ingredient": "Bell Pepper",
+            "quantity": 184.1,
+            "unit": "tomatoes",
+            "instructions": [
+              "Add bell pepper to pan and stir",
+              "Cook for a few minutes"
+            ],
+            "cookingTime": [
+              349
+            ],
+            "preparation": [
+              {
+                "step": "Grate",
+                "earlyPrep": true
+              }
+            ]
+          },
+          {
+            "ingredient": "Garlic",
+            "quantity": 26.7,
+            "unit": "grams",
+            "instructions": [
+              "Add garlic to pan and stir",
+              "Cook for a few minutes"
+            ],
+            "cookingTime": [
+              136
+            ]
+          },
+          {
+            "ingredient": "Onion",
+            "quantity": 45.4,
+            "unit": "tablespoon",
+            "instructions": [
+              "Add onion to pan and stir",
+              "Cook for a few minutes"
+            ],
+            "cookingTime": [
+              337
+            ],
+            "preparation": [
+              {
+                "step": "Grate",
+                "earlyPrep": true
+              }
+            ]
+          },
+          {
+            "ingredient": "Onion",
+            "quantity": 171.6,
+            "unit": "grams",
+            "instructions": [
+              "Add onion to pan and stir",
+              "Cook for a few minutes"
+            ],
+            "cookingTime": [
+              298
+            ],
+            "preparation": [
+              {
+                "step": "Grate",
+                "earlyPrep": true
+              }
+            ]
+          },
+          {
+            "ingredient": "Bell Pepper",
+            "quantity": 170.6,
+            "unit": "grams",
+            "instructions": [
+              "Add bell pepper to pan and stir",
+              "Cook for a few minutes"
+            ],
+            "cookingTime": [
+              228
+            ],
+            "preparation": [
+              {
+                "step": "Chop finely",
+                "earlyPrep": true
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Meal 14 with Tomato Paste",
+    "lastCooked": "31 Mar. 2025",
+    "serves": [
+      {
+        "adults": 2,
+        "children": 2,
+        "set": [
+          {
+            "ingredient": "Green Beans",
+            "quantity": 40.4,
+            "unit": "grams",
+            "instructions": [
+              "Add green beans to pan and stir",
+              "Cook for a few minutes"
+            ],
+            "cookingTime": [
+              261
+            ],
+            "preparation": [
+              {
+                "step": "Grate",
+                "earlyPrep": true
+              }
+            ]
+          },
+          {
+            "ingredient": "Green Beans",
+            "quantity": 96.1,
+            "unit": "cups",
+            "instructions": [
+              "Add green beans to pan and stir",
+              "Cook for a few minutes"
+            ],
+            "cookingTime": [
+              150
+            ]
+          },
+          {
+            "ingredient": "Garlic",
+            "quantity": 133.5,
+            "unit": "grams",
+            "instructions": [
+              "Add garlic to pan and stir",
+              "Cook for a few minutes"
+            ],
+            "cookingTime": [
+              262
+            ]
+          },
+          {
+            "ingredient": "Onion",
+            "quantity": 166.2,
+            "unit": "tablespoon",
+            "instructions": [
+              "Add onion to pan and stir",
+              "Cook for a few minutes"
+            ],
+            "cookingTime": [
+              286
+            ],
+            "preparation": [
+              {
+                "step": "Grate",
+                "earlyPrep": true
+              }
+            ]
+          },
+          {
+            "ingredient": "Peas",
+            "quantity": 93.0,
+            "unit": "pieces",
+            "instructions": [
+              "Add peas to pan and stir",
+              "Cook for a few minutes"
+            ],
+            "cookingTime": [
+              183
+            ]
+          },
+          {
+            "ingredient": "Tomatoes",
+            "quantity": 114.2,
+            "unit": "pieces",
+            "instructions": [
+              "Add tomatoes to pan and stir",
+              "Cook for a few minutes"
+            ],
+            "cookingTime": [
+              127
+            ]
+          },
+          {
+            "ingredient": "Eggplant",
+            "quantity": 107.8,
+            "unit": "grams",
+            "instructions": [
+              "Add eggplant to pan and stir",
+              "Cook for a few minutes"
+            ],
+            "cookingTime": [
+              346
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Meal 15 with Zucchini",
+    "lastCooked": "28 Mar. 2025",
+    "serves": [
+      {
+        "adults": 2,
+        "children": 2,
+        "set": [
+          {
+            "ingredient": "Potatoes",
+            "quantity": 71.6,
+            "unit": "cups",
+            "instructions": [
+              "Add potatoes to pan and stir",
+              "Cook for a few minutes"
+            ],
+            "cookingTime": [
+              230
+            ],
+            "preparation": [
+              {
+                "step": "Chop finely",
+                "earlyPrep": true
+              }
+            ]
+          },
+          {
+            "ingredient": "Zucchini",
+            "quantity": 20.7,
+            "unit": "tablespoon",
+            "instructions": [
+              "Add zucchini to pan and stir",
+              "Cook for a few minutes"
+            ],
+            "cookingTime": [
+              281
+            ],
+            "preparation": [
+              {
+                "step": "Chop finely",
+                "earlyPrep": true
+              }
+            ]
+          },
+          {
+            "ingredient": "Green Beans",
+            "quantity": 83.2,
+            "unit": "tomatoes",
+            "instructions": [
+              "Add green beans to pan and stir",
+              "Cook for a few minutes"
+            ],
+            "cookingTime": [
+              212
+            ]
+          },
+          {
+            "ingredient": "Peas",
+            "quantity": 196.1,
+            "unit": "tablespoon",
+            "instructions": [
+              "Add peas to pan and stir",
+              "Cook for a few minutes"
+            ],
+            "cookingTime": [
+              170
+            ],
+            "preparation": [
+              {
+                "step": "Chop finely",
+                "earlyPrep": true
+              }
+            ]
+          },
+          {
+            "ingredient": "Pasta",
+            "quantity": 71.0,
+            "unit": "ml",
+            "instructions": [
+              "Add pasta to pan and stir",
+              "Cook for a few minutes"
+            ],
+            "cookingTime": [
+              360
+            ]
+          },
+          {
+            "ingredient": "Tomatoes",
+            "quantity": 46.8,
+            "unit": "tablespoon",
+            "instructions": [
+              "Add tomatoes to pan and stir",
+              "Cook for a few minutes"
+            ],
+            "cookingTime": [
+              187
+            ],
+            "preparation": [
+              {
+                "step": "Chop finely",
+                "earlyPrep": true
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Meal 16 with Mushrooms",
+    "lastCooked": "27 Mar. 2025",
+    "serves": [
+      {
+        "adults": 2,
+        "children": 2,
+        "set": [
+          {
+            "ingredient": "Garlic",
+            "quantity": 79.6,
+            "unit": "tomatoes",
+            "instructions": [
+              "Add garlic to pan and stir",
+              "Cook for a few minutes"
+            ],
+            "cookingTime": [
+              155
+            ]
+          },
+          {
+            "ingredient": "Rice",
+            "quantity": 42.5,
+            "unit": "tablespoon",
+            "instructions": [
+              "Add rice to pan and stir",
+              "Cook for a few minutes"
+            ],
+            "cookingTime": [
+              252
+            ]
+          },
+          {
+            "ingredient": "Beef Strips",
+            "quantity": 166.6,
+            "unit": "tablespoon",
+            "instructions": [
+              "Add beef strips to pan and stir",
+              "Cook for a few minutes"
+            ],
+            "cookingTime": [
+              193
+            ],
+            "preparation": [
+              {
+                "step": "Grate",
+                "earlyPrep": true
+              }
+            ]
+          },
+          {
+            "ingredient": "Garlic",
+            "quantity": 97.5,
+            "unit": "pieces",
+            "instructions": [
+              "Add garlic to pan and stir",
+              "Cook for a few minutes"
+            ],
+            "cookingTime": [
+              301
+            ]
+          },
+          {
+            "ingredient": "Peas",
+            "quantity": 78.7,
+            "unit": "pieces",
+            "instructions": [
+              "Add peas to pan and stir",
+              "Cook for a few minutes"
+            ],
+            "cookingTime": [
+              232
+            ]
+          },
+          {
+            "ingredient": "Pasta",
+            "quantity": 182.2,
+            "unit": "ml",
+            "instructions": [
+              "Add pasta to pan and stir",
+              "Cook for a few minutes"
+            ],
+            "cookingTime": [
+              310
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Meal 17 with Eggplant",
+    "lastCooked": "26 Mar. 2025",
+    "serves": [
+      {
+        "adults": 2,
+        "children": 2,
+        "set": [
+          {
+            "ingredient": "Potatoes",
+            "quantity": 61.7,
+            "unit": "cups",
+            "instructions": [
+              "Add potatoes to pan and stir",
+              "Cook for a few minutes"
+            ],
+            "cookingTime": [
+              108
+            ]
+          },
+          {
+            "ingredient": "Mushrooms",
+            "quantity": 96.3,
+            "unit": "cups",
+            "instructions": [
+              "Add mushrooms to pan and stir",
+              "Cook for a few minutes"
+            ],
+            "cookingTime": [
+              330
+            ],
+            "preparation": [
+              {
+                "step": "Chop finely",
+                "earlyPrep": true
+              }
+            ]
+          },
+          {
+            "ingredient": "Bell Pepper",
+            "quantity": 83.9,
+            "unit": "tomatoes",
+            "instructions": [
+              "Add bell pepper to pan and stir",
+              "Cook for a few minutes"
+            ],
+            "cookingTime": [
+              140
+            ]
+          },
+          {
+            "ingredient": "Peas",
+            "quantity": 142.3,
+            "unit": "grams",
+            "instructions": [
+              "Add peas to pan and stir",
+              "Cook for a few minutes"
+            ],
+            "cookingTime": [
+              160
+            ]
+          },
+          {
+            "ingredient": "Potatoes",
+            "quantity": 191.2,
+            "unit": "cups",
+            "instructions": [
+              "Add potatoes to pan and stir",
+              "Cook for a few minutes"
+            ],
+            "cookingTime": [
+              106
+            ]
+          },
+          {
+            "ingredient": "Beef Strips",
+            "quantity": 184.7,
+            "unit": "grams",
+            "instructions": [
+              "Add beef strips to pan and stir",
+              "Cook for a few minutes"
+            ],
+            "cookingTime": [
+              202
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Meal 18 with Beef Strips",
+    "lastCooked": "25 Mar. 2025",
+    "serves": [
+      {
+        "adults": 2,
+        "children": 2,
+        "set": [
+          {
+            "ingredient": "Potatoes",
+            "quantity": 99.8,
+            "unit": "tablespoon",
+            "instructions": [
+              "Add potatoes to pan and stir",
+              "Cook for a few minutes"
+            ],
+            "cookingTime": [
+              166
+            ],
+            "preparation": [
+              {
+                "step": "Grate",
+                "earlyPrep": true
+              }
+            ]
+          },
+          {
+            "ingredient": "Tomato Paste",
+            "quantity": 132.3,
+            "unit": "pieces",
+            "instructions": [
+              "Add tomato paste to pan and stir",
+              "Cook for a few minutes"
+            ],
+            "cookingTime": [
+              130
+            ],
+            "preparation": [
+              {
+                "step": "Chop finely",
+                "earlyPrep": true
+              }
+            ]
+          },
+          {
+            "ingredient": "Onion",
+            "quantity": 120.2,
+            "unit": "tomatoes",
+            "instructions": [
+              "Add onion to pan and stir",
+              "Cook for a few minutes"
+            ],
+            "cookingTime": [
+              188
+            ],
+            "preparation": [
+              {
+                "step": "Grate",
+                "earlyPrep": true
+              }
+            ]
+          },
+          {
+            "ingredient": "Mushrooms",
+            "quantity": 199.7,
+            "unit": "tablespoon",
+            "instructions": [
+              "Add mushrooms to pan and stir",
+              "Cook for a few minutes"
+            ],
+            "cookingTime": [
+              237
+            ],
+            "preparation": [
+              {
+                "step": "Grate",
+                "earlyPrep": true
+              }
+            ]
+          },
+          {
+            "ingredient": "Pasta",
+            "quantity": 170.6,
+            "unit": "grams",
+            "instructions": [
+              "Add pasta to pan and stir",
+              "Cook for a few minutes"
+            ],
+            "cookingTime": [
+              160
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Meal 19 with Onion",
+    "lastCooked": "24 Mar. 2025",
+    "serves": [
+      {
+        "adults": 2,
+        "children": 2,
+        "set": [
+          {
+            "ingredient": "Tomato Paste",
+            "quantity": 127.0,
+            "unit": "pieces",
+            "instructions": [
+              "Add tomato paste to pan and stir",
+              "Cook for a few minutes"
+            ],
+            "cookingTime": [
+              308
+            ]
+          },
+          {
+            "ingredient": "Zucchini",
+            "quantity": 53.2,
+            "unit": "pieces",
+            "instructions": [
+              "Add zucchini to pan and stir",
+              "Cook for a few minutes"
+            ],
+            "cookingTime": [
+              249
+            ]
+          },
+          {
+            "ingredient": "Tomato Paste",
+            "quantity": 175.5,
+            "unit": "pieces",
+            "instructions": [
+              "Add tomato paste to pan and stir",
+              "Cook for a few minutes"
+            ],
+            "cookingTime": [
+              350
+            ]
+          },
+          {
+            "ingredient": "Potatoes",
+            "quantity": 68.0,
+            "unit": "pieces",
+            "instructions": [
+              "Add potatoes to pan and stir",
+              "Cook for a few minutes"
+            ],
+            "cookingTime": [
+              311
+            ]
+          },
+          {
+            "ingredient": "Coconut Milk",
+            "quantity": 62.2,
+            "unit": "grams",
+            "instructions": [
+              "Add coconut milk to pan and stir",
+              "Cook for a few minutes"
+            ],
+            "cookingTime": [
+              240
+            ]
+          },
+          {
+            "ingredient": "Potatoes",
+            "quantity": 92.1,
+            "unit": "tablespoon",
+            "instructions": [
+              "Add potatoes to pan and stir",
+              "Cook for a few minutes"
+            ],
+            "cookingTime": [
+              159
+            ]
+          },
+          {
+            "ingredient": "Mushrooms",
+            "quantity": 192.1,
+            "unit": "ml",
+            "instructions": [
+              "Add mushrooms to pan and stir",
+              "Cook for a few minutes"
+            ],
+            "cookingTime": [
+              353
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Meal 20 with Peas",
+    "lastCooked": "21 Mar. 2025",
+    "serves": [
+      {
+        "adults": 2,
+        "children": 2,
+        "set": [
+          {
+            "ingredient": "Rice",
+            "quantity": 21.5,
+            "unit": "tablespoon",
+            "instructions": [
+              "Add rice to pan and stir",
+              "Cook for a few minutes"
+            ],
+            "cookingTime": [
+              269
+            ]
+          },
+          {
+            "ingredient": "Eggplant",
+            "quantity": 162.2,
+            "unit": "pieces",
+            "instructions": [
+              "Add eggplant to pan and stir",
+              "Cook for a few minutes"
+            ],
+            "cookingTime": [
+              146
+            ]
+          },
+          {
+            "ingredient": "Bell Pepper",
+            "quantity": 187.0,
+            "unit": "grams",
+            "instructions": [
+              "Add bell pepper to pan and stir",
+              "Cook for a few minutes"
+            ],
+            "cookingTime": [
+              118
+            ],
+            "preparation": [
+              {
+                "step": "Chop finely",
+                "earlyPrep": true
+              }
+            ]
+          },
+          {
+            "ingredient": "Zucchini",
+            "quantity": 120.8,
+            "unit": "grams",
+            "instructions": [
+              "Add zucchini to pan and stir",
+              "Cook for a few minutes"
+            ],
+            "cookingTime": [
+              92
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

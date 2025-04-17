@@ -1,0 +1,146 @@
+:root {
+  --primary_colour: #067C5A;
+  --secondary_colour: #F7B011;
+  --accent_colour: #fae3ad;
+}
+
+body {
+  font-family: Questrial, sans-serif;
+  height: 100vh;
+  margin: 0;
+  font-size: 1.1rem;
+}
+
+h1, h2, h3, h4, h5, h6 a, footer {
+  margin: 0;
+  font-family: "Montserrat", sans-serif;
+}
+
+main {
+  h1 {
+    font-size: 2rem;
+    justify-self: center;
+    padding: 40px;
+  }
+
+  .site_map {
+    img {
+      width: 100%;
+    }
+  }
+
+  .branding {
+    img {
+      width: 150px;
+    }
+  }
+
+  .style_guide {
+
+    h2 {
+      grid-area: h2;
+    }
+
+    h3 {
+      grid-area: h3;
+    }
+
+    .pallette {
+      li {
+        div {
+          margin: 0 0 10px;
+        }
+
+        &:nth-child(1) {
+          background: var(--primary_colour);
+        }
+
+        &:nth-child(2) {
+          background: var(--secondary_colour);
+        }
+
+        &:nth-child(3) {
+          background: var(--accent_colour);
+        }
+
+        padding: 20px;
+        flex: 1;
+
+      }
+
+      grid-area: pallette;
+      display: flex;
+      justify-content: space-evenly;
+
+      list-style: none;
+      padding: 0;
+    }
+
+    h4 {
+      grid-area: h4;
+    }
+
+    .typography {
+      li {
+
+
+        &:nth-child(1) {
+          h5 {
+            font-size: 2rem;
+            grid-area: h5;
+          }
+
+          span {
+            grid-area: span;
+          }
+
+          grid-template-areas:"span h5";
+        }
+
+        &:nth-child(2) {
+          h5 {
+            font-size: 2rem;
+            grid-area: h5;
+          }
+
+          span {
+            &:nth-child(1){
+              grid-area: span1;
+            }
+            &:nth-child(2){
+              grid-area: span2;
+            }
+          }
+
+          grid-template-areas:"span1 span2";
+        }
+
+
+        grid-template-columns:auto 1fr;
+        display: grid;
+        align-items: center;
+        gap: 5px;
+      }
+
+      grid-area: typography;
+      padding: 0;
+      list-style: none;
+    }
+
+    display: grid;
+    grid-template-areas:
+            "h2" "h3" "ul" "pallette" "h4" "typography";
+    grid-template-rows: repeat(6, auto);
+  }
+
+  .wireframe{
+    img{
+      width:100%;
+    }
+  }
+
+  display: grid;
+  padding: 20px;
+  max-width: 500px;
+  margin: auto;
+}

@@ -1,0 +1,130 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=5">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="description"
+          content="Katlego's Meal Scheduler">
+    <meta name="author" content="Katlego Kgwetiane - WDD131">
+
+
+    <title>Katlego's Meal Scheduler</title>
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100..900&family=Questrial&display=swap"
+          rel="stylesheet">
+    <script src="scripts/navigation.js" defer></script>
+    <script src="scripts/getdates.js" defer></script>
+    <script src="scripts/script.js" defer></script>
+</head>
+<body>
+
+
+<header>
+    <div class="title">
+        <img src="images/logopng.png" alt="katego's meal scheduler logo">
+        <div>
+            <h2>
+                Katlego's
+            </h2>
+            <sup>Meal Scheduler</sup>
+        </div>
+    </div>
+
+    <a id="menu" class="menu" href="#" aria-label="Menu"></a>
+    <nav>
+        <ul class="navigation">
+            <li>
+                <a href="index.html">Home</a>
+            </li>
+            <li>
+                <a href="about.html">About</a>
+            </li>
+            <li>
+                <a href="contact.html">Contact</a>
+            </li>
+        </ul>
+    </nav>
+</header>
+
+
+<main>
+    <section class="cto">
+        <div class="statement">
+            <h1>
+                Big Healthy bites...
+            </h1>
+            <p>
+                Eat diversly, buy only what you need and enjoy
+                the family dinner experience... a meal at a time😋
+            </p>
+            <button>What's for dinner →</button>
+        </div>
+        <div class="graphic">
+            <img src="images/hero.webp" alt="hero food image">
+        </div>
+    </section>
+    <section class="schedule">
+        <h2>Meal Schedule</h2>
+        <ul class=meals_container></ul>
+    </section>
+</main>
+
+
+<footer>
+    <div id="footer_wrapper">
+        <section>
+            <h2 hidden>...</h2>
+            <p><strong>Polokwane Chamber of Commerce</strong></p>
+            <p>29A Oost Street</p>
+            <p>Polokwane, 0699</p>
+            <p>info@kmp.africa</p>
+            <p>+27 15 295 1284</p>
+        </section>
+        <section>
+            <h2 hidden>...</h2>
+            <div><a target="_blank" href="https://facebook.com"><img src="images/facebook.svg"
+                                                                     alt="facebook"></a></div>
+            <div><a href="https://x.com" target="_blank"><img src="images/twitter.svg" alt="X"></a></div>
+            <div><a href="https://instagram.com/" target="_blank"><img
+                    src="images/instagram.svg" alt="instagram"></a></div>
+        </section>
+        <section>
+            <h2 hidden>...</h2>
+            <p>WDD131 Class Project</p>
+            <p>M. Katlego Kgwetiane</p>
+            <p>©<span id="currentyear"></span> Katlego's Meal Scheduler</p>
+            <p id="lastModified"></p>
+        </section>
+    </div>
+</footer>
+<!--Meal Iteration Template-->
+<template id="meal_template">
+    <li>
+        <h3 id="meal_name"></h3>
+        <img src="images/logopng.png" alt="" loading="lazy">
+        <table>
+            <tr>
+                <td><strong>Last Cooked:</strong></td>
+                <td id="meal_last_cooked"></td>
+            </tr>
+            <tr>
+                <td><strong>Serves:</strong></td>
+                <td id="meal_serves"></td>
+            </tr>
+            <tr>
+                <td><strong>Cooking Time:</strong></td>
+                <td id="meal_cook_time"></td>
+            </tr>
+        </table>
+        <!--<button class="meal_button">more →</button>-->
+    </li>
+</template>
+
+<dialog class="modal" id="modal">
+    <button class="close-button">❌</button>
+</dialog>
+</body>
+</html>
